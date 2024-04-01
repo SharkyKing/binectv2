@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import "./login.css";
-import { FaUser, FaLock } from "react-icons/fa";
+import {FaUser, FaLock, useState, React} from "./LoginImports"
 
 const LoginSubmit = ({ onSubmit }) => {
     const [Email, setEmail] = useState('');

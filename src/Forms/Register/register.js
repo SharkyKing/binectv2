@@ -1,6 +1,5 @@
-import React, {useState} from "react";
 import "./register.css";
-import RegisterSubmit from "./registersubmit.js";
+import {RegisterSubmit, React} from "./RegisterImports.js";
 
 const RegisterForm = () => {
     return (

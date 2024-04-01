@@ -1,9 +1,5 @@
-import React, { useState } from "react";
-import { FaUser, FaLock  } from "react-icons/fa";
-import { MdEmail  } from "react-icons/md";
-import { FaRepeat  } from "react-icons/fa6";
 import "./register.css";
-import axios from 'axios';
+import {React, useState, FaUser, FaLock, MdEmail, FaRepeat,axios } from "./RegisterImports.js";
 
 const RegisterSubmit = () => {
     const [name, setName] = useState("");

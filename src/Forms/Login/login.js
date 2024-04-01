@@ -1,6 +1,5 @@
-import React, { useState } from "react";
 import "./login.css";
-import LoginSubmit from "./loginsubmit.js";
+import {LoginSubmit, React} from "./LoginImports"
 
 const LoginForm = () => {
     return (
